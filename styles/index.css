@@ -68,7 +68,7 @@
 #wrap .bg2 {
     background-image:url(../images/quiz_bg.png);
 }
-#wrap .bg2 .contents { background-color:purple;
+#wrap .bg2 .contents {
     display:flex; flex-flow:row nowrap;
     justify-content:space-between;
     padding:150px 0;
@@ -127,8 +127,28 @@
 #wrap .bg3 .contents .sponsor_btn {text-align:center;}
 #wrap .bg3 .contents .sponsor_btn img {}
 /* ========================= 4행 빙하 50% 감소 */
-/* ========================= 5행 빙하 인류재앙3 */
 /* ========================= 6행 지구전체위기 */
+#wrap .bg4,
+#wrap .bg6 {
+    background-image:url(../images/50_bg.png);
+    padding:200px 0;
+}
+#wrap .bg4 .contents,
+#wrap .bg6 .contents {}
+#wrap .bg4 .contents h2,
+#wrap .bg6 .contents h2 {color:#fff;}
+#wrap .bg4 .contents h2 span,
+#wrap .bg6 .contents h2 span {display:inline-block; padding:1px 1px; background-color:#fff; color:#000;}
+#wrap .bg4 .contents h2+p,
+#wrap .bg6 .contents h2+p {
+    margin:81px 0; color:#fff;
+    font-size:2.13rem; line-height:1.2; font-weight:700;
+}
+#wrap .bg4 .contents .img,
+#wrap .bg6 .contents .img {}
+#wrap .bg4 .contents .img img,
+#wrap .bg6 .contents .img img {width:100%;}
+/* ========================= 5행 빙하 인류재앙3 */
 /* ========================= 7행 WWF소개 */
 /* ========================= 8행 다양한활동 */
 /* ========================= 9행 감사선물 */
